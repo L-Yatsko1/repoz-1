@@ -137,6 +137,8 @@ body{
     line-height: normal;
     padding-top: 128px;
     padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
 }
 .focus_points{
     margin-left: 64px;
@@ -163,4 +165,82 @@ body{
 .block_descr{
     margin-left: 18px;
     margin-top: 18px;
+}
+.us_header{
+    color: #000;
+    font-size: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+}
+.about_us{
+    margin-left: 128px;
+    margin-top: 64px;
+    margin-right: 128px;
+    margin-bottom: 128px;
+    display:flex;
+
+}
+.us_block{
+    margin-left: 209px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.us_title{
+    color: #000;
+    font-size: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.us_descr{
+    color: #B1B1B1;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 32px;
+}
+.us_image{
+    width: 609px;
+    height: 445px;
+    flex-shrink: 0;
+    border-radius: 63px;
+}
+.footer{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    width: 1440px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home_2{
+    color: #FFF;
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 32px;
+}
+.about_us_2,
+.projects_2{
+    color: #FFF;
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-top: 32px;
 }
